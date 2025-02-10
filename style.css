@@ -19,6 +19,18 @@ div.profile {
     padding-left: 10px;
 }
 
+div.profile a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+}
+
+div.profile a:hover {
+    color: #15ff00;
+}
+
 img.pfp {
     border-radius: 10px;
     width: auto;
