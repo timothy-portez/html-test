@@ -17,25 +17,23 @@ div.sidenav {
     padding-left: 10px;
 }
 
-div.sidenav p.home{
+#homelink{
+	text-decoration: none;
+    font-size: 250%;
     text-align: center;
     color: #b883f3;
-}
-
-hr{
-    box-align: center;
-    color: #a663f3;
-}
-
-div.sidenav p.navb {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #535353;
     display: block;
 }
 
-div.sidenav p.navb:hover {
+#mainlink {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 150%;
+    color: #818181;
+    display: block;
+  }
+  
+  #mainlink:hover {
     color: #000000;
 }
 
