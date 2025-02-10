@@ -7,7 +7,6 @@ body {
 }
 
 div.profile {
-    border: 2px solid #5d7e6b;
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 20%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -16,8 +15,9 @@ div.profile {
     left: 0;
     background-color: #224423;
     overflow-x: hidden; /* Disable horizontal scroll */
+    text-align: left;
     padding-top: 20px;
-    text-align: center;
+    padding-left: 0px 10px;
 }
 
 img.pfp {
