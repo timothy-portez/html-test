@@ -17,7 +17,7 @@ div.sidenav {
     padding-left: 10px;
 }
 
-p.home{
+div.sidenav p.home{
     text-align: center;
     color: #b883f3;
 }
@@ -27,7 +27,7 @@ hr{
     color: #a663f3;
 }
 
-div.sidenav a {
+div.sidenav p.navb {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -35,7 +35,7 @@ div.sidenav a {
     display: block;
 }
 
-div.sidenav a:hover {
+div.sidenav p.navb:hover {
     color: #000000;
 }
 
