@@ -44,6 +44,7 @@ div.links {
 }
 
 div.links button {
+    border-radius: 12px;
     padding: 10px;
     background-color: #162c17;
     border: 1px solid #72bd91;
