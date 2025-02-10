@@ -26,6 +26,14 @@ div.sidenav {
     display: block;
 }
 
+#openlink {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 150%;
+    color: #000000;
+    display: block;
+  }
+
 #mainlink {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
