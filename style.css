@@ -16,13 +16,13 @@ div.profile {
     background-color: #224423;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
-    padding-left: 0px 10px;
+    padding-left: 10px;
 }
 
 img.pfp {
     border-radius: 10px;
-    width: 75%;
-    height: 25%;
+    width: auto;
+    height: auto;
 	display: block;
 	margin-left: auto;
  	margin-right: auto;
@@ -31,24 +31,4 @@ img.pfp {
 div.main {
     padding: 0px 10px;
     margin-left: 20%;
-}
-
-div.main img {
-    width: 32%;
-    height: 32%;
-}
-
-div.links {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #213d22;
-    padding: 4px;
-}
-
-div.links button {
-    border-radius: 12px;
-    padding: 10px;
-    background-color: #162c17;
-    cursor: pointer;
-    text-transform: uppercase;
 }
