@@ -34,15 +34,16 @@ div.sidenav {
     display: block;
   }
   
-  #mainlink:hover {
+#mainlink:hover {
     color: #000000;
 }
 
-#activelink {padding: 6px 8px 6px 16px;
+#activelink {
+    padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 150%;
-    display: block;
     color: #000000;
+    display: block;
 }
 
 div.main {
