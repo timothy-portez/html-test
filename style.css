@@ -2,7 +2,7 @@
     color: whitesmoke;
     padding: 15px;
     font-family: 'Public Sans', sans-serif;
-    background-image: linear-gradient(to top left, #345e3b, #2e5333, #213d28, #2e533a, #345e34, #5d7e6d);
+    background-image: linear-gradient(to right, #345e3b, #2e5333, #213d28, #2e533a, #345e34, #5d7e6d);
     background-attachment: fixed;
 }
 
@@ -11,9 +11,8 @@ div.profile {
     border: 2px solid #5d7e6b;
     border-radius: 12px;
     padding: 20px;
-    float: left;
     width: 20%;
-    position: fixed;
+    margin: -10px;
 }
 
 div.main {
@@ -21,8 +20,8 @@ div.main {
     border: 2px solid #5d7e6b;
     border-radius: 12px;
     padding: 20px;
-    float: right;
     width: 70%;
+    margin: -10px;
 }
 
 img.pfp {
