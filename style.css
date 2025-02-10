@@ -18,8 +18,8 @@ div.sidenav {
 }
 
 #homelink{
-    padding-top: 20px;
-	text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
     font-size: 250%;
     text-align: center;
     color: #b883f3;
@@ -32,7 +32,7 @@ div.sidenav {
     font-size: 150%;
     color: #000000;
     display: block;
-  }
+}
 
 #mainlink {
     padding: 6px 8px 6px 16px;
@@ -40,7 +40,7 @@ div.sidenav {
     font-size: 150%;
     color: #818181;
     display: block;
-  }
+}
   
 #mainlink:hover {
     color: #000000;
