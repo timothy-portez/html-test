@@ -38,12 +38,8 @@ div.sidenav {
     color: #000000;
 }
 
-#activelink {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 150%;
+#mainlink:active {
     color: #000000;
-    display: block;
 }
 
 div.main {
