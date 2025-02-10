@@ -9,7 +9,7 @@ body {
 div.profile {
     border: 2px solid #5d7e6b;
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 30%; /* Set the width of the sidebar */
+    width: 20%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -17,18 +17,21 @@ div.profile {
     background-color: #224423;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+    text-align: center;
 }
 
 img.pfp {
     border-radius: 10px;
-    width: 50%;
-    height:50%;
-    float: none;
+    width: 75%;
+    height: 25%;
+	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
 }
 
 div.main {
     padding: 0px 10px;
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 div.main img {
