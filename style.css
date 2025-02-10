@@ -1,9 +1,7 @@
 body {
-    color: whitesmoke;
     padding: 15px;
     font-family: 'Public Sans', sans-serif;
-    background-image: linear-gradient(to right, #345e3b, #2e5333, #213d28, #2e533a, #345e34, #5d7e6d);
-    background-attachment: fixed;
+    background-color: #bebebe;
 }
 
 div.sidenav {
@@ -13,22 +11,31 @@ div.sidenav {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #224423;
+    background-color: #ffffff;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     padding-left: 10px;
+}
+
+p.home{
+    text-align: center;
+    color: #b883f3;
+}
+
+hr{
+    color: #a663f3;
 }
 
 div.sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: #ffffff;
+    color: #535353;
     display: block;
 }
 
 div.sidenav a:hover {
-    color: #15ff00;
+    color: #000000;
 }
 
 div.main {
