@@ -1,12 +1,12 @@
 body {
     padding: 15px;
     font-family: 'Public Sans', sans-serif;
-    background-color: #bebebe;
+    background-color: #b883f3;
 }
 
 div.sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 18%; /* Set the width of the sidebar */
+    width: 15%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -14,22 +14,23 @@ div.sidenav {
     background-color: #ffffff;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
-    border-right-style: solid;
-    border-right-color: #818181;
+    border-right: 5px;
+    border-right-color: #000000;
 }
 
 #homelink{
     text-decoration: none;
-    font-size: 250%;
+    font-size: 200%;
     text-align: center;
     color: #b883f3;
     display: block;
+    font-weight: bold;
 }
 
 #openlink {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 110%;
     color: #000000;
     display: block;
 }
@@ -37,7 +38,7 @@ div.sidenav {
 #mainlink {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 110%;
     color: #818181;
     display: block;
 }
@@ -52,5 +53,5 @@ div.sidenav {
 
 div.main {
     padding: 0px 10px;
-    margin-left: 18%;
+    margin-left: 15%;
 }
