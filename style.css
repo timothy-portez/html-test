@@ -1,7 +1,8 @@
 body {
     font-family: 'Public Sans', sans-serif;
     background-color: white;
-    background-image: url("https://www.ciit.edu.ph/wp-content/uploads/2021/11/120621-1_header.jpg") ;
+    background-image: url("https://www.ciit.edu.ph/wp-content/uploads/2021/11/120621-1_header.jpg");
+    background-repeat: no-repeat;
 }
 
 div.sidenav {
