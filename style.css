@@ -12,10 +12,9 @@ div.sidenav {
     top: 0;
     left: 0;
     background-color: #ffffff;
+    border-right: 1px solid black;
     overflow-x: hidden;
     padding-top: 20px;
-    border-right-style: ridge;
-    border-right-color: #000000;
 }
 
 #homelink{
