@@ -11,7 +11,7 @@ div.sidenav {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #ffffff;
+    background-color: gainsboro;
     border-right: 1px solid black;
     overflow-x: hidden;
     padding-top: 20px;
@@ -71,15 +71,15 @@ div.title {
 
 div.content1 {
     padding: 30px 10px 30px;
-    background-color: dimgrey;
+    background-color: gray;
 }
 
 div.content2 {
     padding: 10px 10px 10px;
-    background-color: gray;
+    background-color: white;
 }
 
 div.content3 {
     padding: 5px 10px 5px;
-    background-color: gray;
+    background-color: white;
 }
