@@ -1,6 +1,7 @@
 body {
     font-family: 'Public Sans', sans-serif;
-    background-color: #ffffff;
+    background-color: white;
+    background-image: url("https://www.ciit.edu.ph/wp-content/uploads/2021/11/120621-1_header.jpg") ;
 }
 
 div.sidenav {
@@ -16,9 +17,10 @@ div.sidenav {
     padding-top: 20px;
 }
 
-#homelink{
+#homelink {
+    padding: 20% 5px 0px 5px;
     text-decoration: none;
-    font-size: 200%;
+    font-size: 160%;
     text-align: center;
     color: #b883f3;
     display: block;
@@ -40,48 +42,39 @@ div.sidenav {
     color: #818181;
     display: block;
 }
-  
-#mainlink:hover {
-    color: #000000;
-}
 
-#mainlink:active {
-    color: #000000;
-}
+    #mainlink:hover {
+        color: #000000;
+    }
 
-div.title {
-    background-color: black;
-    position:absolute;
+    #mainlink:active {
+        color: #000000;
+    }
+
+div.main {
+    position: absolute;
     top: 0;
     left: 15%;
     right: 0;
     width: 85%;
-    height: 40%;
+    height: auto;
     overflow: hidden;
 }
 
-img.imgbg {
-    width: 100%;
-    margin: -140px 0px 0px 0px;
-    opacity: 0.5;
+div.title {
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: 250%;
+    font-weight: bold;
 }
 
 div.content1 {
-    background-color: gray;
-    position: absolute;
-    top: 40%;
-    left: 15%;
-    padding: 0px 10px;
-    width: 85%;
-    height: auto;
+    padding: 25px 10px 25px;
+    text-align: center;
+    background-color: dimgrey;
 }
 
 div.content2 {
-    position: absolute;
-    top: 80%;
-    left: 15%;
-    padding: 0px 10px;
-    width: 85%;
-    height: auto;
+    padding: 5px 10px 5px;
+    background-color: gray;
 }
-    
