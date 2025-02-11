@@ -1,5 +1,4 @@
 body {
-    padding: 15px;
     font-family: 'Public Sans', sans-serif;
     background-color: #ffffff;
 }
@@ -50,14 +49,33 @@ div.sidenav {
     color: #000000;
 }
 
-div.main {
-    padding: 0px 10px;
-    margin-left: 15%;
+div.title {
+    background-color: black;
+    position:absolute;
+    top: 0;
+    left: 15%;
+    right: 0;
+    width: 85%;
+    height: 40%;
+    overflow: hidden;
 }
 
-div.titleimg {
-    width: 400px;
-    height: 400px;
-    overflow: hidden;
+img.imgbg {
+    width: 100%;
+    margin: -140px 0px 0px 0px;
+    opacity: 0.5;
+}
+
+div.content {
+    margin-left: 15%;
+    padding: 0px 10px;
+    position: absolute;
+    top: 40%;
+}
+
+div.subcont1 {
+    background-color: gray;
+    width: 85%;
+    height: auto;
 }
     
