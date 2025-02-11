@@ -55,8 +55,9 @@ div.main {
     margin-left: 15%;
 }
 
-img.titlebg {
-    height:auto;
-    width: 85%;
+div.titleimg {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
 }
     
