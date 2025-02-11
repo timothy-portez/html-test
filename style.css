@@ -59,6 +59,7 @@ div.main {
     width: 85%;
     height: auto;
     overflow: hidden;
+    text-align: center;
 }
 
 div.title {
@@ -69,12 +70,16 @@ div.title {
 }
 
 div.content1 {
-    padding: 25px 10px 25px;
-    text-align: center;
+    padding: 30px 10px 30px;
     background-color: dimgrey;
 }
 
 div.content2 {
+    padding: 10px 10px 10px;
+    background-color: gray;
+}
+
+div.content3 {
     padding: 5px 10px 5px;
     background-color: gray;
 }
