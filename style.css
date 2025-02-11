@@ -14,8 +14,7 @@ div.sidenav {
     background-color: #ffffff;
     overflow-x: hidden;
     padding-top: 20px;
-    border-right-style:solid;
-    border-right-width: 1px;
+    border-right-style: ridge;
     border-right-color: #000000;
 }
 
